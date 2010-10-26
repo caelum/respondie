@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["guilherme silveira"]
   s.date = %q{2010-10-26}
-  s.description = %q{TODO: longer description of your gem}
+  s.description = %q{A helper to avoid class multiplicity in inheriting responders.}
   s.email = %q{guilherme.silveira@caelum.com.br}
   s.extra_rdoc_files = [
     "LICENSE",
@@ -27,16 +27,17 @@ Gem::Specification.new do |s|
      "VERSION",
      "lib/respondie.rb",
      "lib/respondie/builder.rb",
+     "respondie.gemspec",
      "spec/respondie/builder_spec.rb",
      "spec/respondie_spec.rb",
      "spec/spec.opts",
      "spec/spec_helper.rb"
   ]
-  s.homepage = %q{http://github.com/guilhermesilveira/respondie}
+  s.homepage = %q{http://github.com/caelum/respondie}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}
-  s.summary = %q{TODO: one-line summary of your gem}
+  s.summary = %q{A helper to avoid class multiplicity in inheriting responders.}
   s.test_files = [
     "spec/respondie/builder_spec.rb",
      "spec/respondie_spec.rb",
