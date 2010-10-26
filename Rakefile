@@ -5,10 +5,10 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "respondie"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{A helper to avoid class multiplicity in inheriting responders.}
+    gem.description = %Q{A helper to avoid class multiplicity in inheriting responders.}
     gem.email = "guilherme.silveira@caelum.com.br"
-    gem.homepage = "http://github.com/guilhermesilveira/respondie"
+    gem.homepage = "http://github.com/caelum/respondie"
     gem.authors = ["guilherme silveira"]
     gem.add_development_dependency "rspec", ">= 1.2.9"
     gem.version = "0.9.0"
