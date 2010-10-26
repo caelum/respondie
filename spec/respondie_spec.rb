@@ -1,7 +1,19 @@
 require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
 
-describe "Respondie" do
-  it "fails" do
-    fail "hey buddy, you should probably rename this file and start specing for real"
+class ApplicationController < ActionController::Base
+end
+
+class MyController < ApplicationController
+end
+
+describe Respondie do
+
+  it "should enhance ActionController with its cute method" do
+    MyController.should respond_to(:use_trait)
   end
+
+  it "should enhance ActionController with its cute plural method" do
+    MyController.should respond_to(:use_traits)
+  end
+
 end
