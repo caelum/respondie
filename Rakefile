@@ -27,8 +27,6 @@ RSpec::Core::RakeTask.new(:spec) do |t|
   t.rspec_opts = ['--colour', '--format progress']
 end
 
-task :spec => :check_dependencies
-
 task :default => :spec
 
 require 'rake/rdoctask'
